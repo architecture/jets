@@ -1,6 +1,5 @@
 ---
 title: Overview
-nav_order: 2
 ---
 
 ## What is Ruby on Jets?
@@ -26,7 +25,7 @@ For those who would like to learn some AWS essentials, you might like this intro
 For those that would like to jump into Jets more directly, you might like this:
 
 {% assign posts = site.data.tutorial_series %}
-{% for post in posts limit: 4 %}
+{% for post in posts limit: 11 %}
 * [{{ post.title }}]({{ post.url }}){% endfor %}
 
 ## Jets Events Series
@@ -46,4 +45,3 @@ Here are the video playlists for the tutorial series.
 {% for post in posts %}
 * [{{ post.title }}]({{ post.url }}){% endfor %}
 
-{% include prev_next.md %}
